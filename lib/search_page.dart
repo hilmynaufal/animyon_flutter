@@ -120,7 +120,7 @@ class SearchPage extends StatelessWidget {
                       child: Row(
                         children: [
                           Container(
-                              clipBehavior: Clip.antiAliasWithSaveLayer,
+                              clipBehavior: Clip.antiAlias,
                               height: 100,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12)),

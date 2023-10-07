@@ -52,7 +52,7 @@ class FavoritePage extends StatelessWidget {
                       child: Row(
                         children: [
                           Container(
-                              clipBehavior: Clip.antiAliasWithSaveLayer,
+                              clipBehavior: Clip.antiAlias,
                               height: 120,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12)),

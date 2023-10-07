@@ -142,7 +142,7 @@ class HomePage extends StatelessWidget {
                             child: FractionallySizedBox(
                                 widthFactor: 0.95,
                                 child: Card(
-                                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                                    clipBehavior: Clip.antiAlias,
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(12)),
@@ -156,7 +156,7 @@ class HomePage extends StatelessWidget {
                           child: FractionallySizedBox(
                               widthFactor: 0.95,
                               child: Card(
-                                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                                  clipBehavior: Clip.antiAlias,
                                   shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(12)),
                                   child: Image.network(
